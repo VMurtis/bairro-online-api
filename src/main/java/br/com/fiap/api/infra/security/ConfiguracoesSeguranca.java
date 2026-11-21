@@ -53,8 +53,8 @@ public class ConfiguracoesSeguranca {
 
 
     @Bean
-    public SecurityFilterChain filtrosSeguranca(HttpSecurity http) throws Exception{
-        return http
+    public SecurityFilterChain filtrosSeguranca(HttpSecurity http) throws Exception{        return http
+
 
                 .csrf(csrf -> csrf
                         .csrfTokenRepository(
